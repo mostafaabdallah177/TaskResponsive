@@ -1,0 +1,198 @@
+.navbar-brand {
+  font-size: 30px;
+  margin-right: 400px;
+}
+ul {
+  font-size: 25px;
+  margin-right: 25px;
+}
+.btn {
+  font-size: 25px;
+  padding: 10px 25px;
+}
+.Multi-Chain {
+  font-size: 80px;
+  line-height: 100%;
+  font-weight: bold;
+
+  /* --font-family-poppins: "Poppins", Helvetica; */
+}
+#textP {
+  font-size: 20px;
+}
+#SVGID {
+  color: #8c6ed4;
+  font-size: 40px;
+}
+.btnAndImg {
+  font-size: 40px;
+}
+.rawp {
+  display: flex;
+  border: 4px #8c6ed4;
+}
+
+.card {
+  margin: 5px;
+  background-color: #f5fff2;
+  position: relative;
+  z-index: 1;
+}
+.mainImg {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin: 5px;
+}
+
+.imgarrow {
+  margin-left: 140px;
+}
+.NFTs {
+  color: #8c6ed4;
+}
+.footerText {
+  color: white;
+}
+#navFooter {
+  width: 100%;
+
+  position: relative;
+  bottom: 50px;
+  height: 500px;
+  bottom: 70px;
+  /* width: 92%;
+  margin-left: 6%; */
+}
+#mutedText {
+  line-height: 86%;
+  font-size: 20px;
+  color: white;
+  opacity: 0.7;
+}
+#ApText {
+  font-size: 30px;
+}
+#footerBtn {
+  border: 20px 10px 20px 10px;
+  background-color: #8c6ed4;
+  margin-right: 30px;
+  border-color: #8c6ed4;
+  margin-bottom: 10px;
+}
+#footerBtn2 {
+  border: 20px 10px 20px 10px;
+  margin-bottom: 10px;
+
+  border-color: #8c6ed4;
+  color: white;
+}
+.allImg {
+  display: flex;
+  position: relative;
+  top: 50px;
+  width: 70px;
+}
+#SVGPlus {
+  position: relative;
+  color: white;
+  font-size: 40px;
+  z-index: 1;
+  left: 10px;
+  bottom: 60px;
+  z-index: 6;
+}
+.Img1 {
+  position: relative;
+  width: 70px;
+  z-index: 5;
+}
+.Img2 {
+  position: relative;
+  right: 35px;
+  width: 70px;
+  height: 70px;
+  z-index: 4;
+}
+.Img3 {
+  position: relative;
+  right: 60px;
+  height: 70px;
+  width: 70px;
+  z-index: 3;
+}
+.Img4 {
+  position: relative;
+  right: 90px;
+  height: 70px;
+  width: 70px;
+  z-index: 2;
+}
+.Img5 {
+  position: relative;
+  right: 115px;
+  height: 70px;
+  width: 70px;
+  z-index: 1;
+}
+.par {
+  /* position: relative; */
+  top: 40px;
+  color: #8c6ed4;
+  font-weight: bold;
+  font-size: 25px;
+  /* z-index: 1; */
+}
+@media (min-width: 992px) {
+  .mainImg {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .ApText {
+    font-size: 20px;
+  }
+  .navFooter {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768) {
+  .mainImg {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  .allImg {
+    width: 100%;
+  }
+  .ApText {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .navFooter {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767) {
+  .mainImg {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .allImg {
+    width: 100%;
+    margin-top: 50%;
+  }
+  .ApText {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .navFooter {
+    width: 100%;
+    height: 100%;
+  }
+
+  #mutedText {
+    font-size: 10px !important;
+    width: 100%;
+  }
+}
